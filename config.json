@@ -1,0 +1,16 @@
+{
+    "url": "https://store.steampowered.com/search/results/",
+    "detail_url": "https://store.steampowered.com/api/appdetails/",
+    "params": 
+    {
+        "specials": 1,
+        "count": 25,
+        "cc": "CN",
+        "json": 1
+    },
+    "password": "",
+    "smtp_host": "",
+    "smtp_port": "",
+    "sender_email": "",
+    "recipients_list": [""]
+}

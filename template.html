@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本周Steam特惠</title>
+</head>
+
+<body>
+    <h1>本周Steam特惠 {{ date }}</h1>
+    <table>
+    {% for game in games %}
+    <tr>
+        <td><img src="{{ game.logo }}" width="120"/></td>
+        <td>
+        <b>{{ game.name }}</b><br>
+        <span style="text-decoration:line-through">{{ game.original_price }}</span>
+        → <b style="color:red">{{ game.current_price }}</b>
+        (-{{ game.discount_off }})
+        </td>
+    </tr>
+    {% endfor %}
+    </table>
+</body>
+</html>
