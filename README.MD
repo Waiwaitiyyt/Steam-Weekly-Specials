@@ -64,6 +64,7 @@ pip3 install requests jinja2 python-dotenv --break-system-packages
     "password": "your_password"
 }
 ```
+smpt的密码要预先获取。
 
 `cc` 字段为地区代码，影响价格货币单位及游戏可用性，例如 `CN`、`AU`、`US`。
 
